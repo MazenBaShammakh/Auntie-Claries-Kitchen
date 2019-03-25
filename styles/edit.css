@@ -1,0 +1,87 @@
+.edit {
+    width: 55%;
+    /* height: 90vh; */
+    /* background: grey; */
+    margin: 0 auto;
+    padding: 5vh 10%;
+    font-family: 'Germania One', cursive;
+
+}
+
+#edit {
+    text-align: center;
+    font-size: 48px;
+}
+
+.search {
+    height: 20px;
+    padding: 5px 10px;
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.add {
+    border: none;
+    background: sandybrown;
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.dish {
+    width: 100%;
+    /* margin: 50% 0; */
+    /* background: red */
+    /* border: 1px solid red; */
+    height: 32.5vh;
+    padding: 2.5vh 5px;
+    margin: 2% 0
+}
+
+.dish:hover {
+    box-shadow: 0px 0px 10px 2px #393939;
+}
+
+.food {
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+}
+
+.text {
+    width: 55%;
+    margin: 2% 7.5%;
+    float: left;
+    font-size: 18px;
+    letter-spacing: 0.8px
+}
+
+.title {
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.icons {
+    width: 5%;
+    height: 100px;
+    margin-top: 2%;
+    /* background: blue; */
+    float: left;
+}
+
+a {
+    color: black
+}
+
+.iconsli  {
+    list-style-type: none;
+    margin: 10% 0;
+    font-size: 25px
+}
+
+.iconsul {
+    padding: 0;
+    margin: 0
+}
