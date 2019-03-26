@@ -3,14 +3,15 @@
     width: 50%;
     margin: 0 auto;
     font-family: 'Germania One', cursive;
-
+    margin-bottom: 50px;
 }
 
 .month {
     clear: both;
     height: 25vh;
     background: #ff852c;
-    color: #393939;
+    /* color: #393939; */
+    color: #4F3130;
     padding: 5vh 15vh
 }
 
@@ -61,6 +62,7 @@ hr {
     height: 25vh;
     background: #ff852c;
     color: #393939;
+    color: #4F3130;
     padding: 5vh 15vh
 }
 
@@ -68,6 +70,7 @@ hr {
     height: 35vh;
     background: #ff852c;
     color: #393939;
+    color: #4F3130;
     padding: 5vh 15vh
 }
 
@@ -98,6 +101,7 @@ th, td {
     background: #393939;
     color: #fff;
     font-size: 18px;
+    /* font-weight: normal; */
 }
 
 .tbody {

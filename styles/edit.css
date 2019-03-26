@@ -5,7 +5,8 @@
     margin: 0 auto;
     padding: 5vh 10%;
     font-family: 'Germania One', cursive;
-
+    color: #4F3130;
+    /* overflow: hidden */
 }
 
 #edit {
@@ -46,6 +47,7 @@
 
 .food {
     width: 25%;
+    height: 200px;
     border-radius: 50%;
     float: left;
 }
@@ -72,7 +74,8 @@
 }
 
 a {
-    color: black
+    color: #4F3130;
+    
 }
 
 .iconsli  {
