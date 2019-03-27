@@ -8,6 +8,18 @@ body{
     font-family: sans-serif;
 }
 
+.back {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 50px
+}
+
+i {
+    font-size: 50px;
+    color: #ff852c;
+}
+
 .loginbox{
     width: 320px;
     height: 420px;

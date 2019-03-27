@@ -1,11 +1,8 @@
 body{
       margin: 0;
       padding: 0;
-      background: #efefef;
-      font-size: 18px;
-      color: #777;
-      font-family: sans-serif;
-      font-weight: 200;
+      /* background: #efefef; */
+      /* font-weight: 200; */
 
 }
 
@@ -18,7 +15,6 @@ input[type=text], select{
   resize: vertical;
 }
 
-
 h1{
     margin: 1% auto;
     padding: 1% 2% 30px;
@@ -26,7 +22,6 @@ h1{
     font-size: 40px;
 
 }
-
 
 label {
   padding: 12px 12px 12px 0;
@@ -43,17 +38,17 @@ input[type=submit] {
   float: right;
 }
 
-
 .container {
+    font-size: 18px;
+    color: #4F3130;
+    font-family: 'Germania One', cursive;
 
   border-radius: 2px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   padding: 40px;
-  margin-top: 0 auto;
+  margin: 0 auto 50px auto;
+  width: 50%
 }
-
-
-
 
 .col-25 {
   float: left;
@@ -61,20 +56,17 @@ input[type=submit] {
   margin-top: 6px;
 }
 
-
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
 
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {

@@ -1,12 +1,23 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
-    background: #efefef;
+    background: #FBD1A2;
     font-size: 16px;
     color: #777;
     font-family: sans-serif;
     font-weight: 300;
+}
+
+.back {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 50px
+}
+
+i {
+    font-size: 50px;
+    color: #502419;
 }
 
 #login-box
@@ -15,8 +26,12 @@ body
     margin: 5% auto;
     height: 400px;
     width: 600px;
-    background: #fff;
+    background: #4F3130;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#signup {
+    color: #ff852c
 }
 
 .left-box
