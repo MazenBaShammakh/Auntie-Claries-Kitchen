@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FBD1A2;
+    background: #efefef;
     font-size: 16px;
     color: #777;
     font-family: sans-serif;
@@ -26,12 +26,8 @@ i {
     margin: 5% auto;
     height: 400px;
     width: 600px;
-    background: #4F3130;
+    background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-}
-
-#signup {
-    color: #ff852c
 }
 
 .left-box

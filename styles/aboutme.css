@@ -1,3 +1,7 @@
-body {
-    background: red;
+.container {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Acme', sans-serif;
+    padding: 20px 0;
+    color: #4F3130
 }
