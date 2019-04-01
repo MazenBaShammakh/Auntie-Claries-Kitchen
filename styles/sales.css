@@ -44,12 +44,13 @@
     padding: 5px 10px;
     font-family: 'Germania One', cursive;
     font-size: 18px;
-    border-radius: 10px
+    border-radius: 10px;
+    background: #FBD1A2
 }
 
 .view:hover {
     cursor: pointer;
-    background: #393939;
+    background: #502419;
     color: #ff852c
 }
 

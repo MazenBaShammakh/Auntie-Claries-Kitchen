@@ -28,8 +28,8 @@ body {
     width: 42.5%;
     float: left;
     background: none;
-    height: 43vh;
-    padding: 7.5vh 2.5% 7.5vh 5%;
+    height: 53vh;
+    padding: 12.5vh 2.5% 2.5vh 5%;
     border-top: 1vh solid #502419;
     border-bottom: 1vh solid #502419;
     background: #BE7C4D;
@@ -66,7 +66,7 @@ body {
     background-size: cover;
     background-position: center;
     /* background-color: #BE7C4D; */
-    height: 60vh;
+    height: 70vh;
 }
 
 .title {
@@ -84,6 +84,15 @@ body {
     margin: 0;
     font-size: 1.5em;
     letter-spacing: 0.1em
+}
+
+.img {
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 50%;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 5px 2px #502419;
 }
 
 .services {
