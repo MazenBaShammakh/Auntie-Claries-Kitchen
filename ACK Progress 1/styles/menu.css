@@ -1,0 +1,118 @@
+.menu {
+    clear: both;
+    /* margin-top: 100px; */
+    width: 75%;
+    margin: 50px auto;
+    /* margin-bottom: 100px; */
+    height: xx;
+    /* background: peru; */
+    font-family: 'Germania One', cursive;
+    color: #4F3130;
+
+}
+
+#today {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 50px;
+    text-decoration: underline;
+    /* border-bottom: 1px solid #502419; */
+}
+
+hr {
+    border: 1px solid #502419
+}
+
+.dish {
+    /* text-align: center; */
+    width: 30%;
+    /* border:1px solid black; */
+    padding: 15px 5px;
+    float: left;
+    margin: .5% 1%;
+    font-size:20px;
+    /* border-radius: 5%; */
+    /* background: peru */
+    /* border: 1px solid #502419; */
+    /* border-left: 1px solid #502419; */
+}
+
+.dish:hover {
+    box-shadow: 0px 0px 10px 0px #393939;
+    border: none
+}
+
+.last {
+    margin-bottom: 50px
+}
+
+/* .img {
+    height:35%
+} */
+
+.food {
+    width: 75%;
+    margin: 12.5%;
+    height: 35vh;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px 2px #393939;
+    /* border: 1px solid #393939 */
+    /* width: 50px */
+}
+
+/* .food:after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 100%;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(white,green)
+} */
+
+.title {
+    display: inline-block;
+    margin: 0;
+    float: left;
+    height: 30px;
+    width: 35%;
+    margin-left: 5%;
+    font-size: 18px
+    /* margin: 0 auto */
+}
+
+.desc {
+    width: 70%;
+    float: left;
+    font-size: 18px;
+}
+
+.text {
+    /* margin-bottom:0 */
+    font-size: 20px
+}
+
+input {
+    width:25%;
+    margin:0 5%;
+    padding: 0 2.5%;
+    height: 25px;
+    margin-left: 50px;
+    background: none;
+    /* border: none */
+    font-weight: bold;
+}
+
+.cart {
+    border: none;
+    background: peru;
+    padding: 0px 10px;
+    font-family: 'Germania One', cursive;
+    font-size: 18px;
+    height: 35px
+}
+
+.cart:hover {
+    cursor: pointer
+}

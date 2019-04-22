@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Auntie Clarie's Kitchen</title>
+        <link rel="stylesheet" href="footer.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="footer">
+            <div class="column col1">
+                <!-- <div class="sitediv"> -->
+                    <ul class="sitemap">
+                        <li>Sitemap</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Today's Menu</a></li>
+                        <li><a href="#">Full Menu</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">About Kitchen</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                <!-- </div> -->
+            </div>
+
+            <div class="column col2">
+                <div class="content2">
+                    <ul class="subscribediv">
+                        <li>
+                        </i><i class="fab fa-facebook"></i> Auntie Clarie's Kitchen
+                        </li>
+                        <li><i class="fas fa-phone-square"></i> +6011-1192-0694</li>
+                        <li><i class="fas fa-map-marked-alt"></i> ICT Teach Lab 5 L4</li>
+                        <li><i class="fas fa-at"></i> auntieclarie@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column col3">
+                <div class="locateme">
+                    <button id="locateme" type="button" name="button">Locate Me</button>
+                </div>
+                <div class="placeholder map">
+                    <p style='text-align:center; font-size: 20px'>
+                        Want to view my location in Google Maps...<br>
+                        Just click the button above!
+                    </p>
+                </div>
+                <div class="map mapjs">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.388435492293!2d101.72749861408946!3d3.2532767534125697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc38c09ff366b5%3A0xebf4b45f23b31c79!2sKulliyyah+of+Information+and+Communication+Technology+-+KICT!5e0!3m2!1sen!2smy!4v1555585290287!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            <p id="cr">&#169; Copyright 2019 -  Auntie Clarie's Kitchen </p>
+        </div>
+        <script
+          src="https://code.jquery.com/jquery-3.4.0.min.js"
+          integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+          crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $('.placeholder').show();
+            $('.mapjs').hide();
+            $("#locateme").click(function() {
+                $('.placeholder').toggle();
+                $('.mapjs').toggle();
+            })
+        </script>
+    </body>
+</html>

@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Auntie Clarie's Kitchen</title>
-        <link rel="icon" href="images/logo.ico">
-        <link rel="stylesheet" href="styles/footer.css">
         <link rel="stylesheet" href="styles/navbar.css">
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/menu.css">
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
@@ -63,7 +62,7 @@
                                 <a href="contact.html" class="link" title="Contact Me">Contact Me</a>
                             </div>
                             <div class="tab">
-                                <a href="sales.html" class="link"  title="FAQ">Sales</a>
+                                <a href="#" class="link"  title="FAQ">FAQ</a>
                             </div>
                             <div class="tab">
                                 <a href="profile.html" class="link" title="Profile">Profile</a>
@@ -74,40 +73,132 @@
                 </div>
         </div>
 
-        <div class="header">
-            <div class="hleft">
-                <div class="chleft">
-                    <h1 class="welcome">Welcome to Auntie Clarie's Kitchen</h1>
-                    <h3 class="choice">If you're a university student living in-campus, Auntie Clarie's Kitchen is your best choice for homemade, local food.</h3>
-                    <a href="menu.html"><button class="order" type="submit" name="button">Order Now</button></a>
+        <!-- <div class="content"> -->
+            <div class="menu">
+                <h1 id="today">Full Menu</h1>
+                <!-- <hr> -->
+                <div class="dish">
+                    <div class="fooddiv">
+                        <img  class="food" src="images/kunyit.jpg" alt="">
+                    </div>
+
+                    <div class="subtitle">
+                        <table class="details">
+                            <tr>
+                                <td class='title'>Dish Name: </td>
+                                <td>Nasi Goreng Ayam Kunyit</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Description: </td>
+                                <td>rice, rice, rice, rice, rice, rice</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Price: </td>
+                                <td>RM 12.00</td>
+                            </tr>
+                            <tr>
+                                <td class='qnttd'><input type="number" name="" value="" placeholder="Quantity" id='qnt'></td>
+                                <td>
+                                    <button class="cart" type="button" name="button">Add to Cart</button> <br>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- <p class="text"><span class="title">Dish: </span> Nasi Ayam Kunyit</p>
+                        <p class="text"><div class="title">Description: </div> <div id="desc">RICE, chicken, cili, vegetables</div></p>
+                        <p class="text"><span class="title">Price: </span> RM 8.00 </p> -->
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="fooddiv">
+                        <img  class="food" src="images/paprik.jpg" alt="">
+                    </div>
+
+                    <div class="subtitle">
+                        <table class="details">
+                            <tr>
+                                <td class='title'>Dish Name: </td>
+                                <td>Nasi Goreng Ayam Kunyit</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Description: </td>
+                                <td>rice, rice, rice, rice, rice, rice</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Price: </td>
+                                <td>RM 12.00</td>
+                            </tr>
+                            <tr>
+                                <td class='qnttd'><input type="number" name="" value="" placeholder="Quantity" id='qnt'></td>
+                                <td>
+                                    <button class="cart" type="button" name="button">Add to Cart</button> <br>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- <p class="text"><span class="title">Dish: </span> Nasi Ayam Kunyit</p>
+                        <p class="text"><div class="title">Description: </div> <div id="desc">RICE, chicken, cili, vegetables</div></p>
+                        <p class="text"><span class="title">Price: </span> RM 8.00 </p> -->
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="fooddiv">
+                        <img  class="food" src="images/pattaya.jpg" alt="">
+                    </div>
+
+                    <div class="subtitle">
+                        <table class="details">
+                            <tr>
+                                <td class='title'>Dish Name: </td>
+                                <td>Nasi Goreng Ayam Kunyit</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Description: </td>
+                                <td>rice, rice, rice, rice, rice, rice</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Price: </td>
+                                <td>RM 12.00</td>
+                            </tr>
+                            <tr>
+                                <td class='qnttd'><input type="number" name="" value="" placeholder="Quantity" id='qnt'></td>
+                                <td>
+                                    <button class="cart" type="button" name="button">Add to Cart</button> <br>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="fooddiv">
+                        <img  class="food" src="images/mi.jpg" alt="">
+                    </div>
+
+                    <div class="subtitle">
+                        <table class="details">
+                            <tr>
+                                <td class='title'>Dish Name: </td>
+                                <td>Nasi Goreng Ayam Kunyit</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Description: </td>
+                                <td>rice, rice, rice, rice, rice, rice</td>
+                            </tr>
+                            <tr>
+                                <td class='title'>Price: </td>
+                                <td>RM 12.00</td>
+                            </tr>
+                            <tr>
+                                <td class='qnttd'><input type="number" name="" value="" placeholder="Quantity" id='qnt'></td>
+                                <td>
+                                    <button class="cart" type="button" name="button">Add to Cart</button> <br>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
-            <div class="hright">
-                <!-- <img class="img" src="images/l0.jpg" alt=""> -->
-            </div>
-        </div>
 
-        <div class="main">
-            <div class="">
-                <h1 class="title"><i class="fas fa-home"></i> Auntie Clarie's Kitchen</h1>
-                <p class="description">Welcome to my Kitchen. Auntie Clarie's Kitchen is a home kitchen that prepare delicuous, traditional Malay food for university students who usually suffer from high prices of out-door food. Here, I am really eager to help those students and treat them as my kids!</p>
-                <img class="img" src="images/l6.jpg" alt="">
 
-                <h1 class="title"><i class="fas fa-bullseye"></i> My Mission</h1>
-                <p class="description">Auntie Clarie's Kitchen mission is to make in-campus students life as if they're in their hometown! Instead of eating same food daily in university's cafetria, students have a chance to be served with a various dishes prepared by Auntie Clarie.</p>
-                <img class="img" src="images/iium.jpg" alt="">
-
-                <h1 class="title"><i class="far fa-smile-beam"></i> Services I Provide</h1>
-                <ul class="description ul">
-                    <li class="services"><i class="fas fa-truck iser"></i> Free Delivery</li>
-                    <li class="services"><i class="fas fa-utensils iser"></i> Dish Customization</li>
-                    <li class="services"><i class="fas fa-percent iser"></i> Discount for Every 3 Dishes</li>
-                    <li class="services"><i class="fas fa-fire iser"></i> Offer Frozen Food - Heat&Eat</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="footerdiv">
+        <!-- <div class="footerdiv"> -->
             <div class="footer">
                 <div class="column col1">
                     <!-- <div class="sitediv"> -->
@@ -152,7 +243,7 @@
                     </div>
                 </div>
 
-            </div>
+            <!-- </div> -->
 
             <div class="bottom">
                 <p id="cr">&#169; Copyright 2019 -  Auntie Clarie's Kitchen </p>

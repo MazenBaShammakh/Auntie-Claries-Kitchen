@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/profile.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" href="images/logo.ico">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
+  </head>
+  <body>
+
+      <div class="top">
+          <a href="login.html"><button class="log logr">Log In</button></a>
+          <a href="signup.html"><button class="log">Sign Up</button></a>
+      </div>
+
+
+      <div class="navbar">
+
+          <div class="left">
+              <div class="tabs">
+                  <a id="home" href="index.html" class="link" title="Home Page"><span class="firstletter">H</span>ome</a>
+                  <div class="dropdown">
+                      <button class="dropbtn"><span class="firstletter">A</span>bout
+                          <i class="fa fa-caret-down" style="width: 2px"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="aboutkitchen.html" title="Investigate About My Kitchen"><span class="firstletter">A</span>bout Kitchen</a>
+                          <a href="aboutme.html" title="Know more About Me"><span class="firstletter">A</span>bout Me</a>
+                      </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="dropbtn"><span class="firstletter">M</span>enu
+                      <i class="fa fa-caret-down" style="width: 2px"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="menu.html" title="Today's Fresh Menu"><span class="firstletter">T</span>oday's Menu</a>
+                      <a href="edit.html" title="Edit Menu"><span class="firstletter">E</span>dit Menu</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="center">
+              <a href="landing.html"> <img id="logo" src="images/logo.svg" alt="" title="Auntie Clarie's Kitchen"></a>
+          </div>
+
+          <div class="right">
+              <div class="tabs">
+                  <a href="contact.html" class="link" title="Contact Me"><span class="firstletter">C</span>ontact Me</a>
+                  <a href="sales.html" class="link"  title="View Sales"><span class="firstletter">S</span>ales</a>
+                  <a id="other" href="profile.html" class="link" title="Profile"><span class="firstletter">P</span>rofile</a>
+              </div>
+          </div>
+
+      </div>
+
+    <div class="container">
+        <h1>Update Profile</h1>
+        <!-- <a href="pic.jpg"> -->
+        <img src="images/pic.jpg" alt="Error text"width="200">
+        <!-- </a> -->
+
+
+          <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Full Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="name" name="name" placeholder="Anonymous Killer">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">email</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="email" name="email" placeholder="anonymous96@outlook.com">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Country</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                    <option value="usa">Malaysia</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="address">Address</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="Address" name="address" placeholder="22/5 Bandar Kijang">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="Zipcode">Zipcode</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="Zipcode" name="Zipcode" placeholder="43200">
+              </div>
+            </div>
+
+
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+    </div>
+
+    <div class="footer">
+
+        <div class="column col1">
+            <ul>
+                <li>Sitemap</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Today's Menu</a></li>
+                <li><a href="edit.html">Edit Menu</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="aboutkitchen.html">About Kitchen</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="sales.html">Sales</a></li>
+            </ul>
+        </div>
+        <div class="column col2">
+            <ul>
+                <li class="subscribe">Subscribe for My Kitchen</li>
+                <!-- <div class="socialdiv">
+                <li class="socialli"><i class="fab fa-snapchat social"></i>
+                    <i class="fab fa-facebook social"></i>
+                    <i class="fab fa-instagram social"></i>
+                </li>
+                </div> -->
+
+                <li><i class="fab fa-snapchat"></i> AuntieClarieKitchen</li>
+                <li><i class="fab fa-instagram"></i>  Auntie_Clarie_Kitchen</li>
+                <li><i class="fab fa-facebook"></i> Auntie Clarie Kitchen ACK</li>
+            </ul>
+            <ul id="join">
+                <li class="subscribe">Join My Kitchen NOW <i class="far fa-smile-wink"></i></li>
+                <li id="signupbutton"><a href="signup.html"><button type="submit" name="button" id="signup">Sign Up</button></a></li>
+            </ul>
+
+        </div>
+        <div class="column col3">
+            <ul>
+                <li><i class="fas fa-phone-square icon"> <span class="i"> +6011-1192-0694</span></i></li>
+                <li><i class="fas fa-map-marked-alt icon"> <span class="i"> ICT Teach Lab 5 L4</span></i></li>
+                <li><i class="fas fa-at icon"> <span class="i"> auntieclarie@gmail.com</span></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <p id="cr">&#169; Copyright 2019 -  Auntie Clarie's Kitchen </p>
+    </div>
+
+
+  </body>
+</html>

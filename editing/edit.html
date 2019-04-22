@@ -2,14 +2,17 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Auntie Clarie's Kitchen</title>
+        <title>Edit Menu</title>
+        <link rel="stylesheet" href="edit.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="navbar.css">
         <link rel="icon" href="images/logo.ico">
-        <link rel="stylesheet" href="styles/footer.css">
-        <link rel="stylesheet" href="styles/navbar.css">
-        <link rel="stylesheet" href="styles/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
     </head>
     <body>
 
@@ -53,7 +56,7 @@
                     <!-- <a href="landing.html"></a>  -->
                     <!-- <div class="logodiv"> -->
 
-                        <img id="logo" src="images/logo.svg" alt="" title="Auntie Clarie's Kitchen">
+                        <img id="logo" src="logo.svg" alt="" title="Auntie Clarie's Kitchen">
                         <!-- </div> -->
                     </div>
 
@@ -63,7 +66,7 @@
                                 <a href="contact.html" class="link" title="Contact Me">Contact Me</a>
                             </div>
                             <div class="tab">
-                                <a href="sales.html" class="link"  title="FAQ">Sales</a>
+                                <a href="#" class="link"  title="FAQ">FAQ</a>
                             </div>
                             <div class="tab">
                                 <a href="profile.html" class="link" title="Profile">Profile</a>
@@ -74,38 +77,71 @@
                 </div>
         </div>
 
-        <div class="header">
-            <div class="hleft">
-                <div class="chleft">
-                    <h1 class="welcome">Welcome to Auntie Clarie's Kitchen</h1>
-                    <h3 class="choice">If you're a university student living in-campus, Auntie Clarie's Kitchen is your best choice for homemade, local food.</h3>
-                    <a href="menu.html"><button class="order" type="submit" name="button">Order Now</button></a>
+        <div class="edit">
+            <h1 id="edit">Edit Menu</h1>
+            <input class="search" type="text" name="" value="" placeholder="Search an existing dish">
+            <button type="button" name="button" class="add">Search Dish</button>
+            <button type="button" name="button" class="add">Add New Dish</button>
+
+            <div class="dish">
+                <div class="img">
+                    <img class="food" src="../images/kunyit.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p><span class="title">Name:</span> Nasi Ayam Kunyit</p>
+                    <p><span class="title">Description:</span> RICE, chicken, cili, vegetables</p>
+                    <p><span class="title">Price per dish:</span> RM 8.00</p>
+                    <p><span class="title">Discount for 3 dishes:</span> 10%</p>
+                </div>
+                <div class="icons">
+                    <ul class="iconsul">
+                        <li class="iconsli"><a href="#" title="Edit Dish"><i class="far fa-edit"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Delete Dish"><i class="far fa-trash-alt"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Add to Today's Menu"><i class="fas fa-plus-circle"></a></i></li>
+                    </ul>
                 </div>
             </div>
-            <div class="hright">
-                <!-- <img class="img" src="images/l0.jpg" alt=""> -->
+
+            <div class="dish">
+                <div class="img">
+                    <img class="food" src="../images/paprik.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p><span class="title">Name:</span> Nasi Goreng Paprik</p>
+                    <p><span class="title">Description:</span> RICE, chicken, cili, vegetables, sauce</p>
+                    <p><span class="title">Price per dish:</span> RM 9.30</p>
+                    <p><span class="title">Discount for 3 dishes:</span> 10%</p>
+                </div>
+                <div class="icons">
+                    <ul class="iconsul">
+                        <li class="iconsli"><a href="#" title="Edit Dish"><i class="far fa-edit"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Delete Dish"><i class="far fa-trash-alt"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Add to Today's Menu"><i class="fas fa-plus-circle"></a></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="img">
+                    <img class="food" src="../images/pattaya.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p><span class="title">Name:</span> Nasi Goreng Pattaya</p>
+                    <p><span class="title">Description:</span> RICE, chicken, egg, vegetables</p>
+                    <p><span class="title">Price per dish:</span> RM 5.80</p>
+                    <p><span class="title">Discount for 3 dishes:</span> 10%</p>
+                </div>
+                <div class="icons">
+                    <ul class="iconsul">
+                        <li class="iconsli"><a href="#" title="Edit Dish"><i class="far fa-edit"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Delete Dish"><i class="far fa-trash-alt"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Add to Today's Menu"><i class="fas fa-plus-circle"></a></i></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <div class="main">
-            <div class="">
-                <h1 class="title"><i class="fas fa-home"></i> Auntie Clarie's Kitchen</h1>
-                <p class="description">Welcome to my Kitchen. Auntie Clarie's Kitchen is a home kitchen that prepare delicuous, traditional Malay food for university students who usually suffer from high prices of out-door food. Here, I am really eager to help those students and treat them as my kids!</p>
-                <img class="img" src="images/l6.jpg" alt="">
 
-                <h1 class="title"><i class="fas fa-bullseye"></i> My Mission</h1>
-                <p class="description">Auntie Clarie's Kitchen mission is to make in-campus students life as if they're in their hometown! Instead of eating same food daily in university's cafetria, students have a chance to be served with a various dishes prepared by Auntie Clarie.</p>
-                <img class="img" src="images/iium.jpg" alt="">
-
-                <h1 class="title"><i class="far fa-smile-beam"></i> Services I Provide</h1>
-                <ul class="description ul">
-                    <li class="services"><i class="fas fa-truck iser"></i> Free Delivery</li>
-                    <li class="services"><i class="fas fa-utensils iser"></i> Dish Customization</li>
-                    <li class="services"><i class="fas fa-percent iser"></i> Discount for Every 3 Dishes</li>
-                    <li class="services"><i class="fas fa-fire iser"></i> Offer Frozen Food - Heat&Eat</li>
-                </ul>
-            </div>
-        </div>
 
         <div class="footerdiv">
             <div class="footer">
@@ -171,6 +207,8 @@
                 $('.mapjs').toggle();
             })
         </script>
+
+
 
     </body>
 </html>
