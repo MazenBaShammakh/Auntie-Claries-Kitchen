@@ -23,6 +23,7 @@
     color: beige;
     font-family: 'Germania One', cursive;
     font-size: 20px;
+    outline: none
     /* font-weight: bold; */
     /* margin-top: -15px */
 }
@@ -196,4 +197,12 @@ th, td {
 
 .hidden {
     display: none
+}
+
+#weekend {
+    width: 90%;
+    padding: 0 5%;
+    /* float: left; */
+    text-align: center;
+    /* color: red; */
 }

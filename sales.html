@@ -15,6 +15,9 @@
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     </head>
     <body>
+        <script type="text/javascript">
+
+        </script>
 
         <div class="navdiv">
             <div class="top">
@@ -88,29 +91,29 @@
                 <h1 class="period">Monthly Sales</h1>
 
                 <div class="choicediv">
-                    <select class="choice" name="">
+                    <select class="choice" name="" id='monthsel'>
                         <option value="" disabled selected>Choose Month</option>
-                        <option value="">January</option>
-                        <option value="">February</option>
-                        <option value="">March</option>
-                        <option value="">April</option>
-                        <option value="">May</option>
-                        <option value="">June</option>
-                        <option value="">July</option>
-                        <option value="">August</option>
-                        <option value="">September</option>
-                        <option value="">October</option>
-                        <option value="">November</option>
-                        <option value="">December</option>
+                        <option value="0">January</option>
+                        <option value="1">February</option>
+                        <option value="2">March</option>
+                        <option value="3">April</option>
+                        <option value="4">May</option>
+                        <option value="5">June</option>
+                        <option value="6">July</option>
+                        <option value="7">August</option>
+                        <option value="8">September</option>
+                        <option value="9">October</option>
+                        <option value="10">November</option>
+                        <option value="11">December</option>
                     </select>
                 </div>
 
                 <div class="rm">
-                    <span class="sold">RM20018.50 Sold</span>
+                    <span class="sold monthlySales">RM Sold</span>
                 </div>
 
                 <div class="viewbtn">
-                    <button type="button" name="button" class="view">View Sales</button>
+                    <button type="button" name="button" class="view monthlyView">View Sales</button>
                 </div>
 
             </div>
@@ -118,62 +121,63 @@
             <!-- <hr> -->
             <div class="month weekjs hidden">
                 <h1 class="period">Weekly Sales</h1>
-                <div class="choicediv">
+                <div class="choicediv weekdiv">
                     <select class="choice chwk" id='weday' name="">
                         <option value="" selected disabled>Day</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7</option>
-                        <option value="">8</option>
-                        <option value="">9</option>
-                        <option value="">10</option>
-                        <option value="">11</option>
-                        <option value="">12</option>
-                        <option value="">13</option>
-                        <option value="">14</option>
-                        <option value="">15</option>
-                        <option value="">16</option>
-                        <option value="">17</option>
-                        <option value="">18</option>
-                        <option value="">19</option>
-                        <option value="">20</option>
-                        <option value="">21</option>
-                        <option value="">22</option>
-                        <option value="">23</option>
-                        <option value="">24</option>
-                        <option value="">25</option>
-                        <option value="">26</option>
-                        <option value="">27</option>
-                        <option value="">28</option>
-                        <option value="">29</option>
-                        <option value="">30</option>
-                        <option value="">31</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
                     </select>
                     <select class="choice chwk" id='wemon' name="">
                         <option value="" disabled selected>Month</option>
-                        <option value="">January</option>
-                        <option value="">February</option>
-                        <option value="">March</option>
-                        <option value="">April</option>
-                        <option value="">May</option>
-                        <option value="">June</option>
-                        <option value="">July</option>
-                        <option value="">August</option>
-                        <option value="">September</option>
-                        <option value="">October</option>
-                        <option value="">November</option>
-                        <option value="">December</option>
+                        <option value="0">January</option>
+                        <option value="1">February</option>
+                        <option value="2">March</option>
+                        <option value="3">April</option>
+                        <option value="4">May</option>
+                        <option value="5">June</option>
+                        <option value="6">July</option>
+                        <option value="7">August</option>
+                        <option value="8">September</option>
+                        <option value="9">October</option>
+                        <option value="10">November</option>
+                        <option value="11">December</option>
                     </select>
+                    <p id="weekend"></p>
                 </div>
                 <div class="rm">
-                    <span class="sold">RM20018.50 Sold</span>
+                    <span class="sold weeklySales">RM Sold</span>
                 </div>
                 <div class="viewbtn">
-                    <button type="button" name="button" class="view">View Sales</button>
+                    <button type="button" name="button" class="view weeklyView">View Sales</button>
                 </div>
             </div>
 
@@ -190,7 +194,7 @@
                             </tr>
                         </thead>
                         <tbody class="tbody">
-                            <tr>
+                            <!-- <tr>
                                 <td>1</td>
                                 <td>Nasi Goreng Ayam Kunyit</td>
                                 <td>RM 8.00</td>
@@ -199,7 +203,8 @@
                                 <td>2</td>
                                 <td>Mi Goreng</td>
                                 <td>RM 8.50</td>
-                            </tr>
+                            </tr> -->
+
                         </tbody>
                         <tfoot class="tfoot">
                             <tr>
@@ -269,6 +274,9 @@
           src="https://code.jquery.com/jquery-3.4.0.min.js"
           integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
           crossorigin="anonymous"></script>
+        <script type="text/javascript" src="scripts/sales.js">
+
+        </script>
         <script type="text/javascript">
             $('.placeholder').show();
             $('.mapjs').hide();

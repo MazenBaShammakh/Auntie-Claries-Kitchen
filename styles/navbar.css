@@ -2,6 +2,7 @@
 body {
     margin: 0;
     background: beige;
+    background: #fffbf2;
 
 
 }
@@ -38,12 +39,15 @@ body {
     color: #393939;
     color: #502419;
     color: beige;
+    color: #fffbf2;
     /* background: #ff852c; */
     background: sandybrown;
     background: #FBD1A2;
     background: #502419;
     border-radius: 15px;
-    padding: 0 20px
+    padding: 0 20px;
+    outline: none
+
 }
 .log:hover{color:#ff852c; cursor: pointer}
 .logdiv {
@@ -99,6 +103,7 @@ body {
     padding: 0;
     background: #502419;
     background: beige;
+    background: #fffbf2;
     color: #502419;
     border-radius: 20px;
     /* background: #ff852c; */
