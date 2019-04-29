@@ -15,6 +15,13 @@ body {
     width: 50px
 }
 
+.front {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    width: 50px
+}
+
 i {
     font-size: 50px;
     color: #502419;

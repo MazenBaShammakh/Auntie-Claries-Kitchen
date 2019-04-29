@@ -12,19 +12,21 @@
     <div class="back">
         <a href="home.html" title="Back to Home Page"><i class="fas fa-arrow-circle-left"></i></a>
     </div>
+    <div class="front">
+        <a href="login.html" title="Proceed to Log In"><i class="fas fa-arrow-circle-right"></i></a>
+    </div>
 
     <div id="login-box">
       <div class="left-box">
         <h1 id="signup"> Sign Up</h1>
 
-          <input type="text" name="Name" placeholder="Full Name"/>
-          <input type="text" name="username" placeholder="Username"/>
-          <input type="text" name="email" placeholder="Email"/>
-          <input type="password" name="password" placeholder="Password"/>
+          <input type="text" id="name" name="Name" placeholder="Full Name"/>
+          <input type="text" id="username" name="username" placeholder="Username"/>
+          <input type="text" id="email" name="email" placeholder="Email"/>
+          <input type="password" id="password" name="password" placeholder="Password"/>
+          <input type="password" id="repassword" name="password2" placeholder="Retype password"/>
 
-          <input type="password" name="password2" placeholder="Retype password"/>
-
-          <input type="submit" name="signup-button" value="Sign Up"/>
+          <input type="submit" id="submit" name="signup-button" value="Sign Up"/>
 
         </div>
         <div class="right-box">
@@ -38,6 +40,24 @@
         </div>
         <div class="or">OR</div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDyHUCb1d4PijM9zsFSAlXd-nfbt3-UpIM",
+        authDomain: "auntie-claries-kitchen.firebaseapp.com",
+        databaseURL: "https://auntie-claries-kitchen.firebaseio.com",
+        projectId: "auntie-claries-kitchen",
+        storageBucket: "auntie-claries-kitchen.appspot.com",
+        messagingSenderId: "571449320657"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="scripts/signup.js"></script>
 
 </body>
 </html>

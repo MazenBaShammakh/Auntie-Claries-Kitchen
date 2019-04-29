@@ -19,18 +19,37 @@
     <div class="loginbox">
     <img src="images/avatar.jpg" class="avatar">
         <h1>Login Here</h1>
-        <form>
+        <div>
             <p>Username</p>
-            <input type="text" name="" placeholder="Enter Username">
+            <input type="text" id="username" name="" placeholder="Enter Username">
             <p>Password</p>
-            <input type="password" name="" placeholder="Enter Password">
-            <input type="submit" name="" value="Login">
+            <input type="password" id="password" name="" placeholder="Enter Password">
+            <input type="submit" id="submit" name="" value="Login">
             <a href="password.html">Forget your password?</a><br>
             <a href="signup.html">Don't have an account?</a>
-        </form>
+        </div>
 
     </div>
 
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDyHUCb1d4PijM9zsFSAlXd-nfbt3-UpIM",
+        authDomain: "auntie-claries-kitchen.firebaseapp.com",
+        databaseURL: "https://auntie-claries-kitchen.firebaseio.com",
+        projectId: "auntie-claries-kitchen",
+        storageBucket: "auntie-claries-kitchen.appspot.com",
+        messagingSenderId: "571449320657"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="scripts/login.js"></script>
 
   </body>
 </html>
