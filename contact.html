@@ -118,15 +118,15 @@
               <img id="imglogo" src="images/logo.svg">
             </div>
             <div class="columna">
-              <form action="/action_page.php">
+              <div>
                 <label for="fname">Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Actual Name">
+                <input type="text" id="fname" name="firstname" placeholder="Actual Name" required>
                 <label for="lname">Username</label>
-                <input type="text" id="lname" name="lastname" placeholder="ACK username">
+                <input type="text" id="lname" name="lastname" placeholder="ACK username" required>
                 <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Share your thoughts here..." style="height:170px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Share your thoughts here..." style="height:170px" required></textarea>
                 <input id="submit" type="submit" value="Submit">
-              </form>
+            </div>
             </div>
           </div>
         </div>
@@ -195,7 +195,20 @@
             $('.mapjs').toggle();
         })
     </script>
-
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDyHUCb1d4PijM9zsFSAlXd-nfbt3-UpIM",
+        authDomain: "auntie-claries-kitchen.firebaseapp.com",
+        databaseURL: "https://auntie-claries-kitchen.firebaseio.com",
+        projectId: "auntie-claries-kitchen",
+        storageBucket: "auntie-claries-kitchen.appspot.com",
+        messagingSenderId: "571449320657"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="scripts/contact.js"></script>
 
 </body>
 </html>

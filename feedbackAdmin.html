@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {    font-family: 'Acme', sans-serif;
+}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
@@ -25,7 +26,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+    background-color: #4CAF50;
+  background-color: #502419;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -34,14 +36,49 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
+  background-color: #ff852c;
+}
+
+.h1 {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #502419;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
+
+.msg {
+    margin-bottom: 50px;
+    background: rgba(80,36,25,.5);
+    border-radius: 10px;
+    padding: 20px;
+    letter-spacing: 1px
+}
+
+.msg:hover {
+    box-shadow: 0 0 10px 5px #502419
+}
+
+.msg li {
+    list-style-type: none
+}
+
+.subdiv {
+    text-align: right;
+    margin-right: 20px
+}
+
 </style>
 </head>
 <body>
@@ -134,16 +171,20 @@ input[type=submit]:hover {
         </div>
     </div>
 
+<!-- <div class="content"> -->
 
-<h3>Customer Feedback (Admin Panel)</h3>
 
+<h1 class="h1">Customer Feedback </h1>
 <div class="container">
+<!-- <div class="msg">
+
   <li>From Zamani</li>
       <p><strong>This is the best online restaurant in Malaysia</strong></p>
       <label for="subject">Your comment</label>
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+</div> -->
 
-  <li>From Siti</li>
+  <!-- <li>From Siti</li>
        <p><strong>Maybe you need to add more menu or maybe beverage also</strong></p>
        <label for="subject">Your comment</label>
        <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
@@ -171,11 +212,13 @@ input[type=submit]:hover {
   <li>From Zainal</li>
       <p><strong>I like the service</strong></p>
       <label for="subject">Your comment</label>
-      <textarea id="subject" name="Your comment" placeholder="Write something.." style="height:50px"></textarea>
+      <textarea id="subject" name="Your comment" placeholder="Write something.." style="height:50px"></textarea> -->
 
-    <input type="submit" value="Submit">
+    <!-- <input type="submit" value="Submit"> -->
 
 </div>
+
+<!-- </div> -->
 
 <div class="footerdiv">
     <div class="footer">
@@ -239,6 +282,22 @@ input[type=submit]:hover {
         $('.placeholder').toggle();
         $('.mapjs').toggle();
     })
+</script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDyHUCb1d4PijM9zsFSAlXd-nfbt3-UpIM",
+    authDomain: "auntie-claries-kitchen.firebaseapp.com",
+    databaseURL: "https://auntie-claries-kitchen.firebaseio.com",
+    projectId: "auntie-claries-kitchen",
+    storageBucket: "auntie-claries-kitchen.appspot.com",
+    messagingSenderId: "571449320657"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="scripts/feedback.js">
+
 </script>
 
 </body>

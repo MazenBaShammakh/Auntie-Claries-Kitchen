@@ -34,10 +34,14 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   /* background-color: #f2f2f2; */
-  padding: 10px;
+  /* padding: 10px; */
   font-family: 'Germania One', cursive;
   color: #4F3130
 
+}
+
+.contact {
+    margin-top: 70px
 }
 
 #contactme {
