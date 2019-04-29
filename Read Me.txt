@@ -1,0 +1,120 @@
+﻿Read Me
+Auntie Clarie’s Kitchen
+
+
+
+
+Prepared by:
+	Suhib Khaled Hassan Mourshid
+	1818999
+	Ba Shammakh Mazen Mohammed Ahmed 
+	1726765
+	 Muhammad Akmal bin Mohd Taib 
+	1719503 
+	Muhamad Safwan Bin Rahumatulla 
+	1722491 
+	
+
+
+
+
+
+Introduction        2
+Team        2
+Group Contributions        2
+Future enhancement        2
+Table 1 Group Contribution        2
+Website Structure        3
+References        3
+
+
+
+
+________________
+Introduction
+Aunty Claire`s kitchen is an online homemade food ordering website.The site visitors can view the daily menu and place an order. Aunty Claire is a person who cooks daily fresh homemade healthy food to the customers. The food is then either sent to the customer by Grab, or the customer can come and collect it when it's ready. 
+
+
+
+
+
+
+Team
+Group Contributions
+Each of the team members prepared 4 web pages for the progress presentation as shown in Table 1. 
+
+
+Future enhancement 
+At the moment, the website is still static pages only. We are planning to make it more interactive by linking it to the database through jQuery and ajax. The admin will be able to add, modify, and remove from the menu as wished. The login system will be activated as well. 
+
+
+Table 1 Group Contribution
+ 
+Name
+	Contributions
+	Future Enhancments
+	Suhib
+	edit daily menu, view sales, todays menu
+	design the database
+	Mazen
+	main page, order page, edit full menu page, full menu
+	store and fetch from database
+	Akmal
+	contact me, about me, about the food, faq
+	apply jquery to the website
+	Safwan
+	signup, signin, profile, order history
+	link to database using ajax
+	
+
+
+
+Website Structure
+Home Page - landing page for the website
+Today’s Menu Page - displays dishes that are served today
+Full Menu Page - displays all dishes served in Auntie Clarie’s Kitchen
+About Kitchen Page - present information about ACK kitchen and food
+About Me Page - present information about Auntie Clarie
+Contact Me Page - allows customer to post a message for Auntie Clarie
+Profile Page - allows customer to view/edit his/her profile
+Order History Page - allows customer to view his/her past orders
+Sales Page - allows admin (Auntie Clarie) to view her daily, weekly, and monthly sales
+Edit Today’s Menu Page - allows admin to post dishes served for today
+Edit Full Menu Page - allows admin to change her overall menu
+Orders Page - allows admin to view all orders
+Customer Feedback Page - allows admin to view her customers’ feedback
+
+
+
+
+
+
+References
+The JQuery Foundation. Accordion Widget. Retrieved 10 October 2018 from 
+https://api.jqueryui.com/1.10/accordion/ 
+
+
+Photographer Name. Pexels. Retrieved 10 October 2018 from 
+https://www.pexels.com/photo/men-sport-fitness-run-54334/
+
+
+Google Maps API
+https://developers.google.com/maps/documentation/ 
+
+
+Bootstrap
+https://getbootstrap.com/docs/4.3/getting-started/introduction/ 
+
+
+Pexels
+https://www.pexels.com/ 
+
+
+Fontawesome Icons
+https://fontawesome.com/ 
+
+
+Freepik
+https://www.freepik.com/
+ 
+------------------------------------END OF README SAMPLE ----------------------------------------
