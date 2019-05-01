@@ -54,7 +54,7 @@ Table 1 Group Contribution
 Name	||  	  Contributions 	|| Future Enhancements
 		HTML |	CSS |	JS
 Suhib || 3,11,14,15 | 3,11,14,15 | 2,3,13,14,15 || design our own database
-Mazen || 1,2,13,12,18 | 1,2,13,12,18, navbar, footer, overall consistency | store and fetch from firebase database (8,9,16,6), 12 || 		apply security constraints to website pages
+Mazen || 1,2,13,12,18 | 1,2,13,12,18, navbar, footer, design consistency | store and fetch from firebase database (8,9,16,6), 12 || 		apply security constraints to website pages
 Akmal || 4,5,6,16 | 4,5,6,16 | 15 || apply jquery to all pages
 Safwan || 7,8,9,10,17 | 7,8,9,10,17 || link to database using ajax
 
