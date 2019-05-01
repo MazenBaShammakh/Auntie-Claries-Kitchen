@@ -1,7 +1,8 @@
 ﻿Read Me
 Auntie Clarie’s Kitchen
 
-
+Google Docs Link: (more organized)
+https://docs.google.com/document/d/1YYOrljVWIiSfonQNeIHARY_OrOng-J_WtE9avFNGVec/edit?usp=sharing
 
 
 Prepared by:
@@ -50,38 +51,12 @@ At the moment, the website is still static pages only. We are planning to make i
 
 Table 1 Group Contribution
  
-Name
-	
-
-Contributions
-	Future Enhancements
-	HTML
-	CSS
-	JS
-	Suhib
-	3,11,14,15
-	3,11,14,15
-	2,3,13,14,15
-	design our own database
-	Mazen
-	1,2,13,12,18
-	1,2,13,12,18, navbar, footer, overall consistency
-	store and fetch from firebase database (8,9,16,6), 12
-	apply security constraints to website pages
-	Akmal
-	4,5,6,16
-	4,5,6,16
-	15
-	apply jquery to all pages
-	Safwan
-	7,8,9,10,17
-	7,8,9,10,17
-	
-
-	link to database using ajax
-	
-
-
+Name	||  	  Contributions 	|| Future Enhancements
+		HTML |	CSS |	JS
+Suhib || 3,11,14,15 | 3,11,14,15 | 2,3,13,14,15 || design our own database
+Mazen || 1,2,13,12,18 | 1,2,13,12,18, navbar, footer, overall consistency | store and fetch from firebase database (8,9,16,6), 12 || 		apply security constraints to website pages
+Akmal || 4,5,6,16 | 4,5,6,16 | 15 || apply jquery to all pages
+Safwan || 7,8,9,10,17 | 7,8,9,10,17 || link to database using ajax
 
 Website Structure
 1. Home Page - introduction page for the website
