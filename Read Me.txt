@@ -51,40 +51,57 @@ At the moment, the website is still static pages only. We are planning to make i
 Table 1 Group Contribution
  
 Name
-	Contributions
-	Future Enhancments
+	
+
+Contributions
+	Future Enhancements
+	HTML
+	CSS
+	JS
 	Suhib
-	edit daily menu, view sales, todays menu
-	design the database
+	3,11,14,15
+	3,11,14,15
+	2,3,13,14,15
+	design our own database
 	Mazen
-	main page, order page, edit full menu page, full menu
-	store and fetch from database
+	1,2,13,12,18
+	1,2,13,12,18, navbar, footer, overall consistency
+	store and fetch from firebase database (8,9,16,6), 12
+	apply security constraints to website pages
 	Akmal
-	contact me, about me, about the food, faq
-	apply jquery to the website
+	4,5,6,16
+	4,5,6,16
+	15
+	apply jquery to all pages
 	Safwan
-	signup, signin, profile, order history
+	7,8,9,10,17
+	7,8,9,10,17
+	
+
 	link to database using ajax
 	
 
 
 
 Website Structure
-Home Page - landing page for the website
-Today’s Menu Page - displays dishes that are served today
-Full Menu Page - displays all dishes served in Auntie Clarie’s Kitchen
-About Kitchen Page - present information about ACK kitchen and food
-About Me Page - present information about Auntie Clarie
-Contact Me Page - allows customer to post a message for Auntie Clarie
-Profile Page - allows customer to view/edit his/her profile
-Order History Page - allows customer to view his/her past orders
-Sales Page - allows admin (Auntie Clarie) to view her daily, weekly, and monthly sales
-Edit Today’s Menu Page - allows admin to post dishes served for today
-Edit Full Menu Page - allows admin to change her overall menu
-Orders Page - allows admin to view all orders
-Customer Feedback Page - allows admin to view her customers’ feedback
-
-
+1. Home Page - introduction page for the website
+2. Today’s Menu Page - displays dishes that are served today
+3. Full Menu Page - displays all dishes served in Auntie Clarie’s Kitchen
+4. About Kitchen Page - present information about ACK kitchen and food
+5. About Me Page - present information about Auntie Clarie
+6. Contact Me Page - allows customer to post a message for Auntie Clarie
+7. Profile Page - allows customer to view/edit his/her profile
+8. Sign Up Page - allows new users to create new accounts in ACK
+9. Log In Page - allows users to log in to ACK
+10. Forget Password Page - allows users to assign new passwords to their acccount
+11. Order History Page - allows customer to view his/her past orders
+12. Sales Page - allows admin (Auntie Clarie) to view her daily, weekly, and monthly sales
+13. Edit Today’s Menu Page - allows admin to post dishes served for today
+14. Edit Full Menu Page - allows admin to change her overall menu
+15. Orders Page - allows admin to view all orders
+16. Customer Feedback Page - allows admin to view her customers’ feedback
+17. Cart Page - allows customer to view his/her cart
+18. Landing Page - briefly describes ACK
 
 
 
