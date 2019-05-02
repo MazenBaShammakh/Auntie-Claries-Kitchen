@@ -1,0 +1,208 @@
+.sales {
+    clear: both;
+    width: 50%;
+    margin: 75px auto;
+    font-family: 'Germania One', cursive;
+    /* margin-bottom: 50px; */
+}
+
+.salesperiod {
+    width: 100%;
+    overflow: auto;
+    /* background: lightblue; */
+    padding: 5px 0;
+    text-align: center;
+}
+
+.prdbtn {
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background: #502419;
+    color: beige;
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    outline: none
+    /* font-weight: bold; */
+    /* margin-top: -15px */
+}
+
+.prdbtn:hover {
+    cursor: pointer
+}
+
+.month {
+    clear: both;
+    height: 150px;
+    background: #ff852c;
+    /* color: #393939; */
+    color: #4F3130;
+    /* padding: 5vh 15vh */
+    padding: 50px
+}
+
+.period {
+    text-decoration: underline;
+}
+
+.choicediv {
+    width: 30%;
+    float: left;
+    font-size: 18px;
+    overflow: auto;
+    /* background: pink; */
+}
+
+.choice {
+    height: 30px;
+    width: 98%;
+    font-size: 20px;
+    background: beige;
+    color: #502419;
+    font-weight: bold;
+    padding: 0 1%
+}
+
+.chwk {
+    font-size: 16px
+}
+
+#weday {
+    width: 35%;
+}
+
+#wemon {
+    width: 61%
+}
+
+.rm {
+    width: 35%;
+    float: left;
+    text-align: center;
+    /* background: pink */
+}
+
+.sold {
+    font-size: 20px
+}
+
+.viewbtn {
+    width: 35%;
+    float: left;
+    text-align: center;
+    /* background: purple */
+}
+
+.view {
+    /* border: none;
+    padding: 5px 10px;
+    font-family: 'Germania One', cursive;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #FBD1A2; */
+
+    width: 75%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background: #502419;
+    color: beige;
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-top: -15px
+}
+
+.view:hover {
+    cursor: pointer;
+    background: #502419;
+    color: #ff852c
+}
+
+hr {
+    margin: 0;
+    border: 1px solid #393939;
+}
+
+.week {
+    height: ;
+    background: #ff852c;
+    color: #393939;
+    color: #4F3130;
+    padding: 5vh 15vh
+}
+
+.today {
+    /* height: 35vh; */
+    background: #ff852c;
+    color: #393939;
+    color: #4F3130;
+    overflow: auto;
+    padding: 50px
+    /* padding: 5vh 15vh */
+}
+
+th, td {
+    border-bottom: 1px solid #393939;
+    /* border-collapse: collapse; */
+}
+
+.tbody tr:hover {
+    background-color: #f5f5f5
+}
+
+.details {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%
+}
+
+#today {
+    margin-bottom: 0
+}
+
+#date {
+    margin-top: 5px
+}
+
+.thead {
+    background: #393939;
+    color: #fff;
+    font-size: 18px;
+    /* font-weight: normal; */
+}
+
+.tbody {
+    background: navajowhite;
+    font-size: 18px;
+}
+
+.tfoot {
+    background: orange;
+    font-size: 18px;
+}
+
+.tsales {
+    text-align: right;
+    border-right: 1px solid #393939;
+    padding-right: 25px
+}
+
+.active {
+    border: 1px solid #502419;
+    color: #502419;
+    background: none
+}
+
+.hidden {
+    display: none
+}
+
+#weekend {
+    width: 90%;
+    padding: 0 5%;
+    /* float: left; */
+    text-align: center;
+    /* color: red; */
+}

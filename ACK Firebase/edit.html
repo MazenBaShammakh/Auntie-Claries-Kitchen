@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>About Me</title>
-
-		<!-- <link rel="stylesheet" href="styles/index.css"> -->
-		<link rel="stylesheet" href="styles/navbar.css">
-		<link rel="stylesheet" href="styles/footer.css">
-		<link rel="stylesheet" href="styles/aboutme1.css">
-		<link rel="icon" href="images/logo.ico">
-		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Edit Menu</title>
+        <link rel="stylesheet" href="styles/edit.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="icon" href="images/logo.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
+    </head>
+    <body>
 
-	</head>
-	<body>
-
-		<div class="navdiv">
+        <div class="navdiv">
             <div class="top">
                 <div class="logdiv">
                     <a href="login.html"><button class="log">Log In</button></a>
@@ -106,85 +104,83 @@
             </div>
         </div>
 
+        <div class="edit">
+            <h1 id="edit">Edit Menu</h1>
+            <input class="search" type="text" name="" value="" placeholder="Search an existing dish">
+            <button type="button" name="button" class="add">Search Dish</button>
+            <button type="button" id="add" name="button" class="add">Add New Dish</button>
 
-		<div class="container">
+            <div class="dishes">
 
-			<header class="header">
-					<div>
-						<p class="header-intro">Hi, I'm</p>
-						<h1 class="header-name">Aunty Claire</h1>
-					</div>
-				</header>
+            </div>
+            <!-- <div class="dish">
+                <div class="img">
+                    <img class="food" src="images/kunyit.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p><span class="title">Name:</span> Nasi Ayam Kunyit</p>
+                    <p><span class="title">Description:</span> RICE, chicken, cili, vegetables</p>
+                    <p><span class="title">Price per dish:</span> RM 8.00</p>
+                    <p><span class="title">Discount for 3 dishes:</span> 10%</p>
+                </div>
+                <div class="icons">
+                    <ul class="iconsul">
+                        <li class="iconsli"><a href="#" title="Edit Dish"><i class="far fa-edit"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Delete Dish"><i class="far fa-trash-alt"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Add to Today's Menu"><i class="fas fa-plus-circle"></a></i></li>
+                    </ul>
+                </div>
+            </div>
 
-				<section class="about">
-					<h2>Introduction</h2>
-					<p>Hi, my name is Claire, I am a woman who's loves to cook since 16 years old. Then, It gives me a brilliant idea to open a business. I really want to serve people with Malay's dishes. And I'm glad to have online restaurant like this! </p>
+            <div class="dish">
+                <div class="img">
+                    <img class="food" src="images/paprik.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p><span class="title">Name:</span> Nasi Goreng Paprik</p>
+                    <p><span class="title">Description:</span> RICE, chicken, cili, vegetables, sauce</p>
+                    <p><span class="title">Price per dish:</span> RM 9.30</p>
+                    <p><span class="title">Discount for 3 dishes:</span> 10%</p>
+                </div>
+                <div class="icons">
+                    <ul class="iconsul">
+                        <li class="iconsli"><a href="#" title="Edit Dish"><i class="far fa-edit"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Delete Dish"><i class="far fa-trash-alt"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Add to Today's Menu"><i class="fas fa-plus-circle"></a></i></li>
+                    </ul>
+                </div>
+            </div>
 
-					<p>I spend far too much time on the web, like designing the web to give the best interface design to all my beloved customer. I hope it gives a best satisfication to my customer.</p>
-				</section>
+            <div class="dish">
+                <div class="img">
+                    <img class="food" src="images/pattaya.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p><span class="title">Name:</span> Nasi Goreng Pattaya</p>
+                    <p><span class="title">Description:</span> RICE, chicken, egg, vegetables</p>
+                    <p><span class="title">Price per dish:</span> RM 5.80</p>
+                    <p><span class="title">Discount for 3 dishes:</span> 10%</p>
+                </div>
+                <div class="icons">
+                    <ul class="iconsul">
+                        <li class="iconsli"><a href="#" title="Edit Dish"><i class="far fa-edit"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Delete Dish"><i class="far fa-trash-alt"></i></a></li>
+                        <li class="iconsli"><a href="#" title="Add to Today's Menu"><i class="fas fa-plus-circle"></a></i></li>
+                    </ul>
+                </div>
+            </div> -->
 
-				<section class="questions">
-					<h2>More about me</h2>
-					<h3>Where am I from?</h3>
-					<p>I'm originally from a small state in Malaysia called Malacca where I spend all my childhood time here every day. I grew up in a small town but moved over to the KL after a few years since my dad has transfered to KL.</p>
-
-		      <h3>Background study about myself</h3>
-		      <p>I have a certificate from IKM(Institut Kemahiran Malaysia) where the certificate to convince people that I can cook well:).</p>
-
-					<h3>What is my Dream?</h3>
-					<p>My first aim when I got the idea to open this restaurant is I want to help out student since they are burden with lot of financial problems. I was called by this problem since I heard lot of student are not eating properly that can cause lot of diseases to them. This eventually can make they can't focus on their studies. That's why I want to focusing on the student by serving them the food at the best prices </p>
+        </div>
 
 
 
-				<footer class="socialfooter">
-					<p>You can find out a bit more about me in these places</p>
-					<ul class="social">
-						<li><a href="https://twitter.com/HamishAIrving" target="=_blank">Twitter</li>
-						<li><a href="https://github.com/hamishirving" target="_blank">Github</li>
-						<li><a href="#" target="_blank">Facebook</li>
-					</ul>
-				</footer>
-
-			<!-- <div class="header">
-				<h1>About Me</h1>
-			</div>
-			<div class="image">
-				<img src="chef.jpg">
-			</div>
-			<div class="intro ">
-				<h2>A liitle bit about myself</h2>
-				<p>
-					Hye, my name is Claire. I am a the woman who has begin this online restaurant. It is my dream to have online restaurant that serve people with Malay's food especially.
-
-				</p>
-			</div>
-			<div class="skills ">
-				<h3>My Background study and Caracteria</h3>
-				<ul id="skill-list">
-					<li>Diploma in cullinary from IKM</li>
-          <li>Loves to cook</li>
-					<li>Passion with Malay's Food</li>
-					<li>Hardworking</li>
-				</ul>
-			</div>
-			<div class="main-text">
-				<h3>More About Me</h3>
-				<p>
-					I have start the cooking while I am 16 years old. I do love to cook while I am a teenager and always help my mom in the kitchen  to serve our family.
-				</p>
-				<p>
-					I'm motivated person and I love to cook especially Malay's dishes.
-				</p>
-			</div> -->
-		</div>
-
-		<div class="footerdiv">
+        <div class="footerdiv">
             <div class="footer">
                 <div class="column col1">
                     <!-- <div class="sitediv"> -->
                         <ul class="sitemap">
                             <li>Sitemap</li>
-							<li><a href="home.html">Home</a></li>
+                            <li><a href="home.html">Home</a></li>
                             <li><a href="menuToday.html">Today's Menu</a></li>
                             <li><a href="orderHistory.html">Order History</a></li>
                             <li><a href="profile.html">Profile</a></li>
@@ -242,5 +238,22 @@
             })
         </script>
 
-	</body>
+        <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDyHUCb1d4PijM9zsFSAlXd-nfbt3-UpIM",
+            authDomain: "auntie-claries-kitchen.firebaseapp.com",
+            databaseURL: "https://auntie-claries-kitchen.firebaseio.com",
+            projectId: "auntie-claries-kitchen",
+            storageBucket: "auntie-claries-kitchen.appspot.com",
+            messagingSenderId: "571449320657"
+          };
+          firebase.initializeApp(config);
+        </script>
+        <script src="edit.js">
+
+        </script>
+
+    </body>
 </html>

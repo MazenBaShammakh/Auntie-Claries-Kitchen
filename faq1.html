@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<h2>Frequently Asked Qustions(FAQ)</h2>
+
+<button class="accordion">What is Aunty Claire about?</button>
+<div class="panel">
+  <p>Aunty Claire actually is doing an online restaurant. Her aim is to help out the student with meal at good price since mostly of student having financial problems</p>
+</div>
+
+<button class="accordion">Does this restaurant open 24/7?</button>
+<div class="panel">
+  <p>Unfortunaely no, opening 24/7 is not in our planning, but still we can make it in long term time.</p>
+</div>
+
+<button class="accordion">What is the purpose of this restaurant?</button>
+<div class="panel">
+  <p>The purpose of this online restaurant is to help the student to get their order by on the internet. So, student can save time by spending too much to go to the physical restaurant instead they just can make the order on their mobile phone! This can help also the student to focus on the study more.</p>
+</div>
+
+<button class="accordion">Why the menu is limited?</button>
+<div class="panel">
+  <p>Currently the menu is limited since our cooker are just few. But, we gonna add the cooker and also add lot of various of food and maybe beverages on the menu in sya Allah.</p>
+</div>
+
+<button class="accordion">Does the price is make sense?</button>
+<div class="panel">
+  <p>Since we are focusing on the student, for sure we put at the best price because we know not all of them are very wealth.</p>
+</div>
+
+<button class="accordion">What makes this restaurant diffrent from others?</button>
+<div class="panel">
+  <p>Firstly, this is online restaurant, which means you don't have to go to go to cafe and make the order. It means here you can easily make the order wherever you are. Next, our delivery to you will not gonna charge you, this absoluetly can save your money a lot. Furhtermore, we are here are serving the best food to our customer in addition we are using a fresh ingredients, halal and high quality. </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

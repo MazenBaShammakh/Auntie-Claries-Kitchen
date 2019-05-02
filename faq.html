@@ -3,16 +3,40 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>About Me</title>
+		<title>FAQ</title>
 
 		<!-- <link rel="stylesheet" href="styles/index.css"> -->
 		<link rel="stylesheet" href="styles/navbar.css">
 		<link rel="stylesheet" href="styles/footer.css">
-		<link rel="stylesheet" href="styles/aboutme1.css">
 		<link rel="icon" href="images/logo.ico">
 		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Metal+Mania|Miniver" rel="stylesheet">
+		<style>
+		.accordion {
+		  background-color: #eee;
+		  color: #444;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		  transition: 0.4s;
+		}
+
+		.active, .accordion:hover {
+		  background-color: #ccc;
+		}
+
+		.panel {
+		  padding: 0 18px;
+		  display: none;
+		  background-color: white;
+		  overflow: hidden;
+		}
+		</style>
 
 
 	</head>
@@ -108,74 +132,54 @@
 
 
 		<div class="container">
+			<h2>Frequently Asked Qustions(FAQ)</h2>
 
-			<header class="header">
-					<div>
-						<p class="header-intro">Hi, I'm</p>
-						<h1 class="header-name">Aunty Claire</h1>
-					</div>
-				</header>
-
-				<section class="about">
-					<h2>Introduction</h2>
-					<p>Hi, my name is Claire, I am a woman who's loves to cook since 16 years old. Then, It gives me a brilliant idea to open a business. I really want to serve people with Malay's dishes. And I'm glad to have online restaurant like this! </p>
-
-					<p>I spend far too much time on the web, like designing the web to give the best interface design to all my beloved customer. I hope it gives a best satisfication to my customer.</p>
-				</section>
-
-				<section class="questions">
-					<h2>More about me</h2>
-					<h3>Where am I from?</h3>
-					<p>I'm originally from a small state in Malaysia called Malacca where I spend all my childhood time here every day. I grew up in a small town but moved over to the KL after a few years since my dad has transfered to KL.</p>
-
-		      <h3>Background study about myself</h3>
-		      <p>I have a certificate from IKM(Institut Kemahiran Malaysia) where the certificate to convince people that I can cook well:).</p>
-
-					<h3>What is my Dream?</h3>
-					<p>My first aim when I got the idea to open this restaurant is I want to help out student since they are burden with lot of financial problems. I was called by this problem since I heard lot of student are not eating properly that can cause lot of diseases to them. This eventually can make they can't focus on their studies. That's why I want to focusing on the student by serving them the food at the best prices </p>
-
-
-
-				<footer class="socialfooter">
-					<p>You can find out a bit more about me in these places</p>
-					<ul class="social">
-						<li><a href="https://twitter.com/HamishAIrving" target="=_blank">Twitter</li>
-						<li><a href="https://github.com/hamishirving" target="_blank">Github</li>
-						<li><a href="#" target="_blank">Facebook</li>
-					</ul>
-				</footer>
-
-			<!-- <div class="header">
-				<h1>About Me</h1>
+			<button class="accordion">What is Aunty Claire about?</button>
+			<div class="panel">
+			  <p>Aunty Claire actually is doing an online restaurant. Her aim is to help out the student with meal at good price since mostly of student having financial problems</p>
 			</div>
-			<div class="image">
-				<img src="chef.jpg">
-			</div>
-			<div class="intro ">
-				<h2>A liitle bit about myself</h2>
-				<p>
-					Hye, my name is Claire. I am a the woman who has begin this online restaurant. It is my dream to have online restaurant that serve people with Malay's food especially.
 
-				</p>
+			<button class="accordion">Does this restaurant open 24/7?</button>
+			<div class="panel">
+			  <p>Unfortunaely no, opening 24/7 is not in our planning, but still we can make it in long term time.</p>
 			</div>
-			<div class="skills ">
-				<h3>My Background study and Caracteria</h3>
-				<ul id="skill-list">
-					<li>Diploma in cullinary from IKM</li>
-          <li>Loves to cook</li>
-					<li>Passion with Malay's Food</li>
-					<li>Hardworking</li>
-				</ul>
+
+			<button class="accordion">What is the purpose of this restaurant?</button>
+			<div class="panel">
+			  <p>The purpose of this online restaurant is to help the student to get their order by on the internet. So, student can save time by spending too much to go to the physical restaurant instead they just can make the order on their mobile phone! This can help also the student to focus on the study more.</p>
 			</div>
-			<div class="main-text">
-				<h3>More About Me</h3>
-				<p>
-					I have start the cooking while I am 16 years old. I do love to cook while I am a teenager and always help my mom in the kitchen  to serve our family.
-				</p>
-				<p>
-					I'm motivated person and I love to cook especially Malay's dishes.
-				</p>
-			</div> -->
+
+			<button class="accordion">Why the menu is limited?</button>
+			<div class="panel">
+			  <p>Currently the menu is limited since our cooker are just few. But, we gonna add the cooker and also add lot of various of food and maybe beverages on the menu in sya Allah.</p>
+			</div>
+
+			<button class="accordion">Does the price is make sense?</button>
+			<div class="panel">
+			  <p>Since we are focusing on the student, for sure we put at the best price because we know not all of them are very wealth.</p>
+			</div>
+
+			<button class="accordion">What makes this restaurant diffrent from others?</button>
+			<div class="panel">
+			  <p>Firstly, this is online restaurant, which means you don't have to go to go to cafe and make the order. It means here you can easily make the order wherever you are. Next, our delivery to you will not gonna charge you, this absoluetly can save your money a lot. Furhtermore, we are here are serving the best food to our customer in addition we are using a fresh ingredients, halal and high quality. </p>
+			</div>
+
+			<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.display === "block") {
+			      panel.style.display = "none";
+			    } else {
+			      panel.style.display = "block";
+			    }
+			  });
+			}
+			</script>
 		</div>
 
 		<div class="footerdiv">
